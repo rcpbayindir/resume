@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in LaTeX
+% Based on template by Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Ilknur Kilkan} & Email: \href{mailto:ilknurkilkan@gmail.com}{ilknurkilkan@gmail.com}\\
+  Date of Birth: November 14, 1998 & Mobile: \href{tel:+905316633134}{+90 531 663 31 34} \\
+\end{tabular*}
+
+
+%-----------PROFILE-----------------
+\section{Profile}
+  I am a Data Engineer with 5 years of experience specializing in data integration, ETL processes, and data warehouse development and maintenance. I have strong expertise in ODI 12c, Oracle, and SQL/PLSQL technologies, with a proven track record of developing and optimizing enterprise-level data projects.
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Yildiz Technical University}{Istanbul, Turkey}
+      {Bachelor of Science in Mathematical Engineering}{Sep. 2016 -- 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Vodafone Telecommunications Inc.}{Istanbul, Turkey}
+      {Data Engineer}{Apr. 2022 -- Feb. 2026}
+      \resumeItemListStart
+        \resumeItem{Reporting}
+          {Analyze and develop reports for both enterprise and individual customers, ensuring timely delivery of actionable business insights that drive decision-making across the organization.}
+        \resumeItem{Migration}
+          {Lead migration efforts to transition existing data warehouse developments from legacy systems to the modern ODI 12c platform, significantly improving system efficiency and long-term maintainability.}
+        \resumeItem{Data Domains}
+          {Take full ownership of Lead, Digital, and Business Interaction data domains, ensuring data consistency, proper governance standards, and driving continuous improvement initiatives across all three areas.}
+        \resumeItem{Data Warehouse}
+          {Design, develop, and maintain comprehensive Data Warehouse models using ODI, while implementing robust data quality checks and validation steps to guarantee the accuracy and reliability of critical data tables.}
+        \resumeItem{SQL/PLSQL}
+          {Develop and optimize SQL/PLSQL queries tailored to specific business requirements, enhancing data processing capabilities and overall system performance.}
+        \resumeItem{Data Architecture}
+          {Streamline data architecture by identifying and simplifying redundant or outdated tables and database objects, resulting in cleaner, more efficient data structures.}
+        \resumeItem{Collaboration}
+          {Collaborate with cross-functional teams to troubleshoot and resolve technical issues, providing expert support that minimizes downtime and ensures smooth operations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {DIP Consulting}{Istanbul, Turkey}
+      {Business Intelligence Consultant}{Mar. 2021 -- Mar. 2022}
+      \resumeItemListStart
+        \resumeItem{Performance Management}
+          {Contributed to Garanti Bank's Performance Management Systems project, working closely with the MIS team on the Salary Profitability initiative, focusing on aligning Data Marts to optimize performance while providing ongoing maintenance and comprehensive project support.}
+        \resumeItem{Data Mart Development}
+          {Played a key role in Data Mart development using ODI 12c, writing efficient SQL/PLSQL queries and ensuring smooth integration with existing banking systems and infrastructure.}
+        \resumeItem{System Reliability}
+          {Enhanced system reliability by implementing resilience improvements across existing Data Mart structures, significantly reducing the risk of failures and improving overall fault tolerance.}
+        \resumeItem{Data Quality}
+          {Integrated sophisticated Data Quality rules into Data Mart workflows, incorporating both Run Time and General Check validations to maintain the highest standards of data accuracy and consistency.}
+        \resumeItem{ETL Workflows}
+          {Designed and developed comprehensive ETL workflows for the Garanti Leasing Consolidation project, creating both daily and monthly data processing pipelines that streamlined operations and improved data availability.}
+        \resumeItem{Unified Reporting}
+          {Built a unified reporting environment that consolidated regulatory reports for multiple entities including BDDK, FKB, KKB, Risk Center, Garanti Bank, and BBVA, dramatically improving reporting efficiency and ensuring consistent regulatory compliance.}
+        \resumeItem{BI Reporting}
+          {Developed complex reports using OBIEE and BI Publisher, while providing hands-on UAT support to business users, ensuring all deliverables met quality standards and business requirements.}
+        \resumeItem{Infrastructure}
+          {Provided infrastructure support and collaborated with technical teams to ensure smooth deployment and operation of all BI solutions.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------INTERNSHIPS-----------------
+\section{Internships}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Model Business Solutions}{Istanbul, Turkey}
+      {MSSQL Developer Intern}{Jun. 2019 -- Jul. 2019}
+      \resumeItemListStart
+        \resumeItem{SQL Server}
+          {Gained hands-on experience working with Microsoft SQL Server, developing queries and learning database management fundamentals in a professional environment.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Metric}{Istanbul, Turkey}
+      {ABAP Consultant Intern}{Jan. 2019 -- Feb. 2019}
+      \resumeItemListStart
+        \resumeItem{SAP ABAP}
+          {Learned SAP ABAP programming concepts and gained exposure to enterprise resource planning (ERP) systems and business process integration.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%--------SKILLS------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Data Integration Tools}{: ODI 12c}
+    }
+    \item{
+      \textbf{Database Query Languages}{: PL/SQL, T-SQL}
+    }
+    \item{
+      \textbf{Database Tools}{: Oracle 12c, Toad for Oracle 12c, SQL Server}
+    }
+    \item{
+      \textbf{Business Intelligence Tools}{: OBIEE, BI Publisher}
+    }
+    \item{
+      \textbf{Programming Languages}{: C, C\#, HTML, CSS}
+    }
+    \item{
+      \textbf{Other Tools}{: Bitbucket, Linux Terminal Commands}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Introduction to Programming with Java}{Ismek}
+      {}{Nov. 2020}
+    \resumeSubheading
+      {Algorithms and Programming}{Ismek}
+      {}{Sep. 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------LANGUAGES-----------------
+\section{Languages}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{English}{: Professional Working Proficiency}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
